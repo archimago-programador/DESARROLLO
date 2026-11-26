@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facultad de Informática</title>
+</head>
+<body>
+
+    <h1>Licenciatura en Informatica</h1>
+
+    <p>
+        Bienvenido al portal informativo de nuestra facultad. Aquí formamos profesionales 
+        capacitados en el desarrollo de software, administración de redes, bases de datos 
+        y soluciones tecnológicas innovadoras para el sector productivo.
+    </p>
+
+    <img src="modulo_fic.jpg" alt="Edificio de los módulos de la Facultad de Informática" width="500">
+
+    <h2>Oferta Educativa</h2>
+    <ul>
+        <li>Licenciatura en Informática</li>
+        <li>Ingeniería en Telecomunicaciones, Sistemas y Electrónica (ITSE)</li>
+        <li>Licenciatura en Informática (Modalidad Virtual)</li>
+    </ul>
+
+    <h2>Población Estudiantil (Datos Estimados)</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Carrera</th>
+                <th>Turno Matutino</th>
+                <th>Turno Vespertino</th>
+                <th>Total de Alumnos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Licenciatura en Informática</td>
+                <td>420</td>
+                <td>310</td>
+                <td>730</td>
+            </tr>
+            <tr>
+                <td>Ing. en Telecomunicaciones, Sistemas y Electrónica</td>
+                <td>280</td>
+                <td>195</td>
+                <td>475</td>
+            </tr>
+            <tr>
+                <td>Licenciatura en Informática (Virtual)</td>
+                <td>-</td>
+                <td>-</td>
+                <td>240</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Enlaces de Interés</h2>
+    <ul>
+        <li><a href="https://fic.uas.edu.mx/" target="_blank">Sitio Oficial de la Facultad de Informática</a></li>
+        <li><a href="https://www.uas.edu.mx/" target="_blank">Portal de la Universidad Autónoma de Sinaloa</a></li>
+        <li><a href="https://siia.uasnet.mx/" target="_blank">Portal de Alumnos (SIIA)</a></li>
+    </ul>
+
+    <h2>Formulario de Retroalimentación</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="carrera">Carrera de interés o actual:</label><br>
+        <select id="carrera" name="carrera">
+            <option value="informatica">Licenciatura en Informática</option>
+            <option value="itse">Ing. en Telecomunicaciones, Sistemas y Electrónica</option>
+            <option value="virtual">Licenciatura en Informática (Virtual)</option>
+        </select><br><br>
+
+        <label for="comentarios">Comentarios o sugerencias:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40" required></textarea><br><br>
+
+        <button type="submit">Enviar Retroalimentación</button>
+    </form>
+
+</body>
+</html>
